@@ -1,0 +1,15 @@
+epoch 1/60 loss 1.530 (34s)
+epoch 11/60 loss 0.528 (491s)
+epoch 21/60 loss 0.301 (840s)
+epoch 31/60 loss 0.243 (1218s)
+epoch 41/60 loss 0.237 (1563s)
+epoch 51/60 loss 0.213 (1917s)
+epoch 60/60 loss 0.208 (2228s)
+        dice    iou
+site               
+India  0.832  0.718
+Italy  0.864  0.765
+overall Dice 0.85 IoU 0.744
+/home/claude/work/proj/src/segmentation/train_seg_cpu.py:104: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html
+  try: torch.onnx.export(net, to_t(IM[:1]), os.path.join(MODELS, "conj_seg.onnx"), dynamo=False, **kw)
+saved models/conj_seg.onnx

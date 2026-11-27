@@ -1,0 +1,13 @@
+evaluation method,average of all 8,logistic regression · ratio colour,random forest · ratio colour,XGBoost · ratio colour,SVM (RBF) · ratio colour,logistic regression · colour + texture,random forest · colour + texture,XGBoost · colour + texture,SVM (RBF) · colour + texture
+"Ghana: random split, all 710 images",0.801,0.63,0.89,0.857,0.736,0.701,0.914,0.891,0.789
+"Ghana: random split, exact copies removed",0.713,0.647,0.754,0.704,0.662,0.661,0.798,0.772,0.707
+Ghana: copies grouped (strict),0.697,0.651,0.714,0.678,0.66,0.662,0.764,0.751,0.699
+Ghana: copies grouped (lenient),0.693,0.64,0.722,0.675,0.66,0.64,0.767,0.738,0.7
+"Eyes-Defy: pooled, scored together",0.88,0.871,0.895,0.872,0.866,0.889,0.892,0.876,0.874
+"Eyes-Defy: pooled, scored on India",0.657,0.647,0.699,0.64,0.574,0.69,0.697,0.657,0.65
+"Eyes-Defy: pooled, scored on Italy",0.89,0.861,0.917,0.897,0.898,0.885,0.899,0.884,0.881
+India: within site,0.662,0.655,0.633,0.613,0.614,0.718,0.679,0.679,0.703
+Italy: within site,0.9,0.899,0.91,0.888,0.918,0.892,0.899,0.895,0.897
+Ghana → India,0.644,0.711,0.674,0.606,0.702,0.584,0.676,0.588,0.613
+Ghana → Italy,0.77,0.903,0.853,0.867,0.828,0.885,0.725,0.827,0.274
+India+Italy → Ghana,0.58,0.6,0.604,0.568,0.497,0.611,0.611,0.616,0.532

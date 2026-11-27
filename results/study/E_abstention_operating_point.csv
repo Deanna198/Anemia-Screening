@@ -1,0 +1,13 @@
+method,test,n,accuracy if always answering,share answered,accuracy when answered,said anaemic,said not anaemic,uncertain,anaemic called 'not anaemic',anaemic in test
+"best method (random forest, everything)",Ghana (copies grouped),392,0.7270408163265306,0.35459183673469385,0.8705035971223022,61,78,253,7,164
+"best method (random forest, everything)",India,95,0.6842105263157895,0.28421052631578947,0.8888888888888888,27,0,68,0,68
+"best method (random forest, everything)",Italy,122,0.8852459016393442,0.9262295081967213,0.8584070796460177,0,113,9,16,23
+"best method (random forest, everything)",Ghana → India,95,0.30526315789473685,0.5157894736842106,0.3673469387755102,0,49,46,31,68
+"best method (random forest, everything)",Ghana → Italy,122,0.8114754098360656,0.6967213114754098,0.9176470588235294,0,85,37,7,23
+"best method (random forest, everything)",India+Italy → Ghana,392,0.5867346938775511,0.5918367346938775,0.6594827586206896,1,231,160,79,164
+"reference (logistic regression, ratio colour)",Ghana (copies grouped),392,0.6045918367346939,0.01020408163265306,0.5,0,4,388,2,164
+"reference (logistic regression, ratio colour)",India,95,0.7368421052631579,0.4,0.8421052631578947,38,0,57,0,68
+"reference (logistic regression, ratio colour)",Italy,122,0.860655737704918,0.9344262295081968,0.8596491228070176,0,114,8,16,23
+"reference (logistic regression, ratio colour)",Ghana → India,95,0.3473684210526316,0.0,,0,0,95,0,68
+"reference (logistic regression, ratio colour)",Ghana → Italy,122,0.860655737704918,0.0,,0,0,122,0,23
+"reference (logistic regression, ratio colour)",India+Italy → Ghana,392,0.5688775510204082,0.8010204081632653,0.5764331210191083,41,273,78,107,164

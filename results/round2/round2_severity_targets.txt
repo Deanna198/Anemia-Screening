@@ -1,0 +1,7 @@
+                  target  n_pos_Ghana  LR_Ghana  RF_Ghana  n_pos_India  LR_India  RF_India  n_pos_Italy  LR_Italy  RF_Italy  Gh>India  Gh>Italy  IndIta>Gh
+WHO cutoff (any anaemia)          164      0.65      0.76           68      0.63      0.64           23      0.88      0.90      0.71      0.90       0.61
+                 Hb < 10          111      0.61      0.68           24      0.82      0.75            9      0.87      0.87      0.77      0.90       0.63
+                  Hb < 9           69      0.59      0.68           12      0.63      0.59            3       NaN       NaN      0.66      0.91       0.57
+                  Hb < 8           34      0.47      0.68            2       NaN       NaN            1       NaN       NaN      0.65      0.70        NaN
+  cutoff - 1 (moderate+)          109      0.61      0.69           51      0.74      0.75           15      0.86      0.89      0.76      0.91       0.61
+              cutoff - 2           64      0.56      0.67           28      0.75      0.69            9      0.87      0.87      0.73      0.90       0.58

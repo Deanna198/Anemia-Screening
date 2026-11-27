@@ -1,0 +1,15 @@
+numpy
+pandas
+openpyxl
+opencv-python
+scikit-learn
+scikit-image
+matplotlib
+xgboost
+lightgbm
+imagehash
+joblib
+gradio
+onnxruntime
+# only for src/segmentation/train_seg_cpu.py (the CPU segmentation model):
+torch

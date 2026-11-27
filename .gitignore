@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+data/raw/
+.ipynb_checkpoints/
+
+# Too large for GitHub (>100MB)
+kaggle.7z
